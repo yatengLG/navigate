@@ -1,0 +1,123 @@
+<div class="header-big  post-top css-color mb-4" id="search-bg" style="">
+    <div class="s-search">
+        <div id="search" class="s-search mx-auto">
+            <div id="search-list-menu" class="hide-type-list">
+                <div class="s-type text-center">
+                    <div class="s-type-list big">
+                        <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
+                        <label for="type-baidu"  data-id="group-a"><span>搜索</span></label>
+                        <label for="type-zhiwang" data-id="group-b"><span>工具</span></label>
+                    </div>
+                </div>
+            </div>
+
+            <form action="https://www.baidu.com?s=" method="get" target="_blank" class="super-search-fm">
+                <input type="text" id="search-text" class="form-control smart-tips search-key" 
+                    zhannei="" placeholder="输入关键字搜索" style="outline:0" autocomplete="off">
+                <button class="submit" type="submit"><i class="iconfont icon-search"></i></button>
+            </form>
+
+            <div id="search-list" class="hide-type-list">
+                <div class="search-group group-a">
+                    <ul class="search-type">
+                        <li>
+                            <input hidden="" type="radio" name="type" checked="checked"
+                                   id="type-baidu"
+                                   value="https://www.baidu.com/s?wd="
+                                   data-placeholder="百度一下，你就知道">
+                            <label for="type-baidu"><span class="text-muted">百度</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-bing"
+                                   value="https://cn.bing.com/search?q="
+                                   data-placeholder="微软 Bing 搜索">
+                            <label for="type-bing"><span class="text-muted">必应</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-google"
+                                   value="https://www.google.com/search?q="
+                                   data-placeholder="谷歌搜索">
+                            <label for="type-google"><span class="text-muted">谷歌</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-360"
+                                   value="https://www.so.com/s?q="
+                                   data-placeholder="360 好搜">
+                            <label for="type-360"><span class="text-muted">360</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-sogo"
+                                   value="https://www.sogou.com/web?query="
+                                   data-placeholder="搜狗搜索">
+                            <label for="type-sogo"><span class="text-muted">搜狗</span></label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-group group-b">
+                    <ul class="search-type">
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-zhiwang"
+                                   value="https://kns.cnki.net/kns8/DefaultResult/Index?kw="
+                                   data-placeholder="知网 搜索/文章标题/关键字">
+			                <label for="type-zhiwang"><span class="text-muted">知网</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-arxiv"
+                                   value="https://arxiv.org/search/?searchtype=all&source=header&query="
+                                   data-placeholder="arxiv 搜索/文章标题/关键字">
+			                <label for="type-arxiv"><span class="text-muted">arxiv</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-dockerhub"
+                                value="https://hub.docker.com/search?q="
+                                data-placeholder="docker hub">
+                            <label for="type-dockerhub"><span class="text-muted">docker hub</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-github"
+                                value="https://github.com/search?q="
+                                data-placeholder="Github">
+                            <label for="type-github"><span class="text-muted">Github</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type"
+                                id="type-csdn"
+                                value="https://so.csdn.net/so/search?q="
+                                data-placeholder="csdn">
+                            <label for="type-csdn"><span class="text-muted">csdn</span></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card search-smart-tips search-hot-text">
+                <ul id="word" style="display: none"></ul>
+            </div>
+        </div>
+    </div>
+    <!--div class="bulletin-big mx-3 mx-md-0">
+        <div id="bulletin_box" class="card my-2">
+            <div class="card-body py-1 px-2 px-md-3 d-flex flex-fill text-xs text-muted">
+                <div><i class="iconfont icon-bulletin" style="line-height:25px"></i></div>
+                <div class="bulletin mx-1 mx-md-2 carousel-vertical">
+                    <div class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"><a class="overflowClip_1"
+                                    href="#">所长导航 - 用心精选每一个链接</a></div>
+                            <div class="carousel-item "><a class="overflowClip_1"
+                                    href="#">所长导航 - 有范的导航网站</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-fill"></div>
+                <a title="关闭" href="javascript:;" rel="external nofollow" class="bulletin-close"
+                    onclick="$('#bulletin_box').slideUp('slow');"><i class="iconfont icon-close"
+                        style="line-height:25px"></i></a>
+            </div>
+        </div>
+    </div-->
+</div>
