@@ -110,6 +110,12 @@
           logo: 阿里云盘.png
           url: https://www.aliyundrive.com/
           description: 阿里云盘，你的数字世界。
+    - term: 在线工具
+      links:
+        - title: TinyPNG
+          logo:
+          url: https://tinypng.com/
+          description: Compress WebP, PNG and JPEG images intelligently.
     - term: 云服务器
       links:
         - title: 阿里云
