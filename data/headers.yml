@@ -2,15 +2,23 @@
   icon: fa fa-home
   link: "./"
 
-- item: 博客
+- item: 个人博客
   icon: fa fa-book
   link: http://www.yatenglg.cn/blog
 
-#- item: 开源软件
-#  icon: fa fa-cog
-#  link: ""
-#  list:
-#    - name: ISAT
-#      url: "#"
-#    - name: IDAT
-#      url: "#"
+- item: 开放服务
+  icon: fa fa-cloud
+  link: ""
+  list:
+    - name: LG WOW
+      url: http://www.yatenglg.cn/wow
+
+- item: 开源软件
+  icon: fa fa-cog
+  link: ""
+  list:
+    - name: ISAT
+      url: http://www.yatenglg.cn/isat
+    - name: IDAT
+      url: http://www.yatenglg.cn/idat
+
