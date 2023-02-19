@@ -116,6 +116,10 @@
           logo:
           url: https://tinypng.com/
           description: Compress WebP, PNG and JPEG images intelligently.
+        - title: gif compressor
+          logo: gifcompressor.com.ico
+          url: https://gifcompressor.com/
+          description: This free online tool is all you need for compressing GIF animations.
     - term: 云服务器
       links:
         - title: 阿里云

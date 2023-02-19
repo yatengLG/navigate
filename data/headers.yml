@@ -17,8 +17,10 @@
   icon: fa fa-cog
   link: ""
   list:
-    - name: ISAT
+    - name: PSAT(点云标注工具)
+      url: http://www.yatenglg.cn/psat
+    - name: ISAT(图像分割标注工具)
       url: http://www.yatenglg.cn/isat
-    - name: IDAT
+    - name: IDAT(图像检测标注工具)
       url: http://www.yatenglg.cn/idat
 
