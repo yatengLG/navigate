@@ -66,11 +66,11 @@
         - title: Pytorch 官网
           logo: pytorch.svg
           url: https://pytorch.org/
-          description: Pytorch
+          description: An open source machine learning framework that accelerates the path from research prototyping to production deployment.
         - title: Github
           logo: github.ico
           url: https://github.com/
-          description: Github.
+          description: GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
         - title: Docker
           logo: docker.ico
           url: https://docs.docker.com/
@@ -79,6 +79,10 @@
           logo: anaconda.ico
           url: https://www.anaconda.com/
           description: Anaconda | The World's Most Popular Data Science Platform.
+        - title: JetBrains
+          logo: jetbrains.ico
+          url: https://www.jetbrains.com.cn/
+          description: 软件开发者和团队的必备工具。
 - taxonomy: 软件工具
   icon: fas fa-briefcase fa-lg
   list:
@@ -105,7 +109,7 @@
         - title: 百度网盘
           logo: 百度网盘.jpg
           url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
+          description: 百度网盘为您提供文件的网络备份、同步和分享服务。
         - title: 阿里云盘
           logo: 阿里云盘.png
           url: https://www.aliyundrive.com/
