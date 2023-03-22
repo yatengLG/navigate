@@ -124,6 +124,26 @@
           logo: gifcompressor.com.ico
           url: https://gifcompressor.com/
           description: This free online tool is all you need for compressing GIF animations.
+        - title: 鸭力巨大
+          logo: www.yalijuda.com.ico
+          url: http://www.yalijuda.com/
+          description: 免费在线图片/视频压缩工具 | 图片压缩 | 免费 JPG PNG GIF 图像压缩。
+        - title: Picdiet - fastest online image filesize compressor
+          logo: www.picdiet.com.ico
+          url: https://www.picdiet.com/
+          description: Picdiet is a fast and robust online batch image filesize compressor written in JavaScript, images are compressed in your browser, completely free.
+
+    - term: 资源网站
+      links:
+        - title: 书法字体网
+          logo: www.shufaziti.com.ico
+          url: http://www.shufaziti.com/
+          description: 中国书法字体书法字典在线查询工具收集整理翰墨宝典等书法家楷书行书书法作品，集成毛笔书法字体生成功能智能实现矢量书法字体转换免费下载，提供隶书草书书法家字体查询，请牢记书法字体网。
+        - title: Wallpaper Abyss
+          logo: wall.alphacoders.com.ico
+          url: https://wall.alphacoders.com/?lang=Chinese
+          description: 一家壁纸社区。浏览和下载高清桌面背景、手机壁纸，留下赞和评论。
+
     - term: 云服务器
       links:
         - title: 阿里云

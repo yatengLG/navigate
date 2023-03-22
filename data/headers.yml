@@ -6,6 +6,10 @@
   icon: fa fa-book
   link: http://www.yatenglg.cn/blog
 
+- item: 个人简历
+  icon: fa fa-book
+  link: http://www.yatenglg.cn/resume
+
 - item: 开放服务
   icon: fa fa-cloud
   link: ""
