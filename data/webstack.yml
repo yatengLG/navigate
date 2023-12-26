@@ -1,46 +1,46 @@
 ---
 
-- taxonomy: 文献资讯
+- taxonomy: 常用推荐
   icon: fas fa-book fa-lg
+  links:
+    - title: Github
+      logo: github.ico
+      url: https://github.com/
+      description: GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+    - title: huggingface
+      url: https://huggingface.co/
+      logo: huggingface.co.ico
+      description: The AI community building the future.
+
+- taxonomy: 办公学习
+  icon: fas fa-graduation-cap fa-lg
   list:
-    - term: 文献资讯
+
+    - term: 文献资料
       links:
         - title: 知网
           logo: 知网.ico
           url: https://www.cnki.net/
           description: 中国知网
-        - title: arXiv
-          logo: arxiv.ico
-          url: https://arxiv.org/
-          description: Print Archive
         - title: 专利之星
           logo:
           url: https://cprs.patentstar.com.cn/
           description: 专利之星检索系统，致力于让网民更便捷的获取专利信息。
-        - title: OMG!Ubuntu!
-          url: https://www.omgubuntu.co.uk/
-          logo: omgubuntu.png
-          description: Ubuntu资讯。
-        - title: GitLogs
-          url: https://www.gitlogs.com/
-          logo: gitlogs.ico
-          description: GitLogs News - Discover The Top Trending Tepos.
+        - title: arXiv
+          logo: arxiv.ico
+          url: https://arxiv.org/
+          description: Print Archive
+        - title: paperswithcode
+          url: https://paperswithcode.com/
+          logo: paperswithcode.com.ico
+          description: The latest in Machine Learning | Papers With Code.
 
-- taxonomy: 办公学习
-  icon: fas fa-graduation-cap fa-lg
-  list:
-    - term: 学习网站
+    - term: 文档教程
       links:
         - title: 菜鸟教程
           logo: runnoob.ico
           url: https://www.runoob.com/
           description: 菜鸟教程 - 学的不仅是技术，更是梦想！.
-        - title: 力扣(LeetCode)
-          logo: leetcode.ico
-          url: https://leetcode.cn/
-          description: 力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台
-    - term: 教程文档
-      links:
         - title: Python3
           logo: python3.ico
           url: https://docs.python.org/zh-cn/3/
@@ -49,49 +49,81 @@
           logo: pytorch.svg
           url: https://pytorch.org/docs/stable/index.html
           description: Pytorch documentation
+        - title: Docker docs
+          logo: docker.ico
+          url: https://docs.docker.com/
+          description: Docker Documentation.
         - title: PyQt5
           logo: pyqt5.ico
           url: https://doc.qt.io/qtforpython-5/api.html
           description: Qt for Python Modules.
-        - title: Docker
-          logo: docker.ico
-          url: https://docs.docker.com/
-          description: Docker Documentation.
-        - title: Docker Hub
-          logo: dockerhub.ico
-          url: https://hub.docker.com/
-          description: Docker Hub Container Image Library.
-    - term: 常用软件
+    - term: 学习网站
       links:
-        - title: Pytorch 官网
-          logo: pytorch.svg
-          url: https://pytorch.org/
-          description: An open source machine learning framework that accelerates the path from research prototyping to production deployment.
-        - title: Github
-          logo: github.ico
-          url: https://github.com/
-          description: GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
-        - title: Docker
-          logo: docker.ico
-          url: https://docs.docker.com/
-          description: Docker Documentation.
+        - title: 力扣(LeetCode)
+          logo: leetcode.ico
+          url: https://leetcode.cn/
+          description: 力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台。
+        - title: kaggle
+          logo: kaggle.com.ico
+          url: https://www.kaggle.com/
+          description: Your Machine Learning and Data Science Community.
+    - term: 社区论坛
+      links:
+        - title: 博客园
+          logo: cnblogs.com.ico
+          url: https://www.cnblogs.com/
+          description: 开发者的网上家园。
+        - title: oschina
+          logo: oschina.net.ico
+          url: https://www.oschina.net/
+          description: 中文开源技术交流社区。
+        - title: stackoverflow
+          logo: stackoverflow.com.ico
+          url: https://stackoverflow.com/
+          description: Where Developers Learn, Share, & Build Careers。
+        - title: 掘金
+          logo: juejin.cn.ico
+          url: https://juejin.cn
+          description: 面向全球中文开发者的技术内容分享与交流平台。
+        - title: csdn
+          logo: csdn.net.ico
+          url: https://www.csdn.net/
+          description: 专业开发者社区（垃圾堆）。
+- taxonomy: 常用软件
+  icon: fas fa-briefcase fa-lg
+  list:
+    - term: 开发软件
+      links:
         - title: Anaconda
           logo: anaconda.ico
           url: https://www.anaconda.com/
           description: Anaconda | The World's Most Popular Data Science Platform.
+        - title: Pytorch 官网
+          logo: pytorch.svg
+          url: https://pytorch.org/
+          description: An open source machine learning framework that accelerates the path from research prototyping to production deployment.
         - title: JetBrains
           logo: jetbrains.ico
           url: https://www.jetbrains.com.cn/
           description: 软件开发者和团队的必备工具。
-- taxonomy: 软件工具
-  icon: fas fa-briefcase fa-lg
-  list:
+        - title: Docker
+          logo: docker.ico
+          url: https://www.docker.com/
+          description: Accelerated Container Application Development.
+        - title: Docker Hub
+          logo: dockerhub.ico
+          url: https://hub.docker.com/
+          description: Docker Hub Container Image Library.
     - term: 通讯翻译
       links:
         - title: 微信网页版
           logo: 微信.ico
           url: https://wx.qq.com/
           description: 微信网页版。
+        - title: QQ 邮箱
+          logo: qq邮箱.png
+          url: http://mail.qq.com/
+          description: 腾讯 QQ 邮箱。
         - title: 百度翻译
           logo: 百度翻译.ico
           url: https://fanyi.baidu.com/
@@ -100,10 +132,6 @@
           logo: google翻译.ico
           url: https://translate.google.cn/
           description: 谷歌翻译。
-        - title: QQ 邮箱
-          logo: qq邮箱.png
-          url: http://mail.qq.com/
-          description: 腾讯 QQ 邮箱。
     - term: 网盘资源
       links:
         - title: 百度网盘
@@ -114,35 +142,6 @@
           logo: 阿里云盘.png
           url: https://www.aliyundrive.com/
           description: 阿里云盘，你的数字世界。
-    - term: 在线工具
-      links:
-        - title: TinyPNG
-          logo:
-          url: https://tinypng.com/
-          description: Compress WebP, PNG and JPEG images intelligently.
-        - title: gif compressor
-          logo: gifcompressor.com.ico
-          url: https://gifcompressor.com/
-          description: This free online tool is all you need for compressing GIF animations.
-        - title: 鸭力巨大
-          logo: www.yalijuda.com.ico
-          url: http://www.yalijuda.com/
-          description: 免费在线图片/视频压缩工具 | 图片压缩 | 免费 JPG PNG GIF 图像压缩。
-        - title: Picdiet - fastest online image filesize compressor
-          logo: www.picdiet.com.ico
-          url: https://www.picdiet.com/
-          description: Picdiet is a fast and robust online batch image filesize compressor written in JavaScript, images are compressed in your browser, completely free.
-
-    - term: 资源网站
-      links:
-        - title: 书法字体网
-          logo: www.shufaziti.com.ico
-          url: http://www.shufaziti.com/
-          description: 中国书法字体书法字典在线查询工具收集整理翰墨宝典等书法家楷书行书书法作品，集成毛笔书法字体生成功能智能实现矢量书法字体转换免费下载，提供隶书草书书法家字体查询，请牢记书法字体网。
-        - title: Wallpaper Abyss
-          logo: wall.alphacoders.com.ico
-          url: https://wall.alphacoders.com/?lang=Chinese
-          description: 一家壁纸社区。浏览和下载高清桌面背景、手机壁纸，留下赞和评论。
 
     - term: 云服务器
       links:
@@ -158,28 +157,48 @@
           logo: 华为云.png
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
-
-
-- taxonomy: 休闲娱乐
-  icon: fas fa-coffee fa-lg
+    - term: 其他网站
+      links:
+        - title: pypi
+          logo: pypi.org.ico
+          url: https://pypi.org/
+          description: The Python Package Index (PyPI) is a repository of software for the Python programming language.
+        - title: GNOME Shell Extensions
+          logo: extensions.gnome.org.ico
+          url: https://extensions.gnome.org/
+          description: GNOME Shell Extensions.
+- taxonomy: 素材工具
+  icon: fas fa-briefcase fa-lg
   list:
-    - term: 游戏娱乐
+    - term: 资源网站
       links:
-        - title: Steam
-          logo: steam.ico
-          url: https://store.steampowered.com/
-          description: 欢迎来到 Steam。
-        - title: Epic
-          logo: epic.ico
-          url: https://store.epicgames.com/zh-CN/
-          description: Epic游戏商城。
-    - term: 影音视频
+        - title: iconpark
+          logo: iconpark.oceanengine.com.ico
+          url: https://iconpark.oceanengine.com/home
+          description: ByteDance IconPark.
+        - title: wallhalla
+          logo: wallhalla.com.ico
+          url: https://wallhalla.com/
+          description: Free High-Quality Wallpapers For Desktop & Mobile.
+        - title: Wallpaper Abyss
+          logo: wall.alphacoders.com.ico
+          url: https://wall.alphacoders.com/?lang=Chinese
+          description: 一家壁纸社区。浏览和下载高清桌面背景、手机壁纸，留下赞和评论。
+    - term: 在线工具
       links:
-        - title: 哔哩哔哩
-          logo: bilibili.ico
-          url: https://www.bilibili.com/
-          description: 国内知名的视频弹幕网站。
-        - title: 网易云音乐
-          logo: 网易云音乐.ico
-          url: https://music.163.com/
-          description: 网易云音乐是一款专注于发现与分享的音乐产品。
+        - title: TinyPNG
+          logo:
+          url: https://tinypng.com/
+          description: Compress WebP, PNG and JPEG images intelligently.
+        - title: gif compressor
+          logo: gifcompressor.com.ico
+          url: https://gifcompressor.com/
+          description: This free online tool is all you need for compressing GIF animations.
+        - title: 鸭力巨大
+          logo: www.yalijuda.com.ico
+          url: http://www.yalijuda.com/
+          description: 免费在线图片/视频压缩工具 | 图片压缩 | 免费 JPG PNG GIF 图像压缩。
+        - title: docsmall
+          logo: docsmall.ico
+          url: https://docsmall.com/
+          description: 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具。

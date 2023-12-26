@@ -14,7 +14,8 @@ sudo apt-get install hugo
 ### 添加链接
 1. 获取图标文件
 https://api.iowen.cn/favicon/[不含http的网址].png
-2. 添加链接信息
+2. 将图标文件存储在static/assets/images/logos下
+3. 添加链接信息
 修改data/webstack.yml，
 
 ## 3. 修改时，可进行实时查看。运行
