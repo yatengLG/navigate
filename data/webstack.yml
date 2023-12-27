@@ -1,7 +1,7 @@
 ---
 
 - taxonomy: 常用推荐
-  icon: fas fa-book fa-lg
+  icon: fas fa-star fa-lg
   links:
     - title: Github
       logo: github.ico
@@ -15,7 +15,6 @@
 - taxonomy: 办公学习
   icon: fas fa-graduation-cap fa-lg
   list:
-
     - term: 文献资料
       links:
         - title: 知网
@@ -90,7 +89,7 @@
           url: https://www.csdn.net/
           description: 专业开发者社区（垃圾堆）。
 - taxonomy: 常用软件
-  icon: fas fa-briefcase fa-lg
+  icon: fas fa-tools fa-lg
   list:
     - term: 开发软件
       links:
@@ -168,10 +167,14 @@
           url: https://extensions.gnome.org/
           description: GNOME Shell Extensions.
 - taxonomy: 素材工具
-  icon: fas fa-briefcase fa-lg
+  icon: fas fa-folder-open fa-lg
   list:
     - term: 资源网站
       links:
+        - title: fontawesome
+          logo: fontawesome.com.ico
+          url: https://fontawesome.com/
+          description: Find the Perfect Icon for Your Project in Font Awesome.
         - title: iconpark
           logo: iconpark.oceanengine.com.ico
           url: https://iconpark.oceanengine.com/home
