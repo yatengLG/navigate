@@ -166,6 +166,10 @@
           logo: extensions.gnome.org.ico
           url: https://extensions.gnome.org/
           description: GNOME Shell Extensions.
+        - title: shields
+          logo: shields.io.ico
+          url: https://shields.io/
+          description: Shields.io | Shields.io.
 - taxonomy: 素材工具
   icon: fas fa-folder-open fa-lg
   list:
