@@ -17,7 +17,7 @@ publishDir            = "docs"
     repository    = "https://github.com/yatengLG/navigate"
     enablePreLoad = true		    		           # 网站完全打开前预加载动画
     textPreLoad   = "yatengLG 个人导航 WebStack-Hugo" 		# 预加载的动画文字, 只有当enablePreLoad=true时生效
-    expandSidebar = true                                          # 默认展开左侧边导航栏
+    expandSidebar = false                                          # 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			   # 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"             # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     baiduhmid     = ''             # 百度统计 hm.src 的 ID

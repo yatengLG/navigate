@@ -500,7 +500,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#eee}
 .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#fff;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#fff}
-.header-big{position:relative;margin-top:-75px;padding-top:30px;padding-bottom:60px}
+.header-big{position:relative;margin-top:0px;padding-top:30px;padding-bottom:60px}
 .header-big.bg-gradual:before{content: "";position: absolute;left: 0;height: 80px;right: 0;bottom: 0;background-image: linear-gradient(to top,#f9f9f9 0%,transparent 80%);transition:.3s}
 .header-big.css-img,.header-big.css-bing{background-color:#1b1d1f;background-size:cover;background-position:cover}
 .header-big.canvas-fx{background-color:#1b1d1f}
