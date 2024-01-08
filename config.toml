@@ -12,14 +12,13 @@ publishDir            = "docs"
     author        = "yatengLG"
     description   = "个人导航"
     siteurl       = "."
-    upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"  # 左侧导航栏的"网站提交"
-    about         = "https://github.com/yatengLG/navigate"   # 左侧导航栏的"关于导航"页面(./about)
+    about         = "https://github.com/yatengLG/navigate"      # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/yatengLG/navigate"
-    enablePreLoad = true		    		           # 网站完全打开前预加载动画
-    textPreLoad   = "yatengLG 个人导航 WebStack-Hugo" 		# 预加载的动画文字, 只有当enablePreLoad=true时生效
-    expandSidebar = false                                          # 默认展开左侧边导航栏
-    logosPath     = "assets/images/logos"			   # 网站每个导航地址logo存放地址
-    defaultLogo   = "assets/images/logos/default.webp"             # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    enablePreLoad = true		    		                    # 网站完全打开前预加载动画
+    textPreLoad   = "yatengLG 个人导航 WebStack-Hugo" 		    # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    expandSidebar = false                                       # 默认展开左侧边导航栏
+    logosPath     = "assets/images/logos"			            # 网站每个导航地址logo存放地址
+    defaultLogo   = "assets/images/logos/default.webp"          # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     baiduhmid     = ''             # 百度统计 hm.src 的 ID
 
 [params.qweather]
