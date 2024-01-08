@@ -93,12 +93,15 @@ footer.main-footer .footer-text a:hover {
 
 /* 网格背景 */
 .io-grey-mode .page-container .grid-bg {
-    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
-    background-size: 15px 15px;
-    background-color: #d8d8d8;
+    background-image: linear-gradient(rgba(79, 105, 130, 0.1) 1px, transparent 0), linear-gradient(90deg, rgba(79, 105, 130, 0.1) 1px, transparent 0), url("https://www.yatenglg.cn/assets/images/LG.png");
+    background-size: 20px 20px, 20px 20px, 10%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-position: left top, left top, 95% 90%;
+    background-attachment:scroll, scroll, fixed;
+    background-color: #cdd7d9;
 }
 
-
+/*79, 105, 130*/
 
 
 
