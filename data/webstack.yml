@@ -66,6 +66,10 @@
           description: Your Machine Learning and Data Science Community.
     - term: 社区论坛
       links:
+        - title: 魔塔社区
+          logo: modelscope.cn.ico
+          url: https://www.modelscope.cn/
+          description: 模型开源社区及创新平台。
         - title: 博客园
           logo: cnblogs.com.ico
           url: https://www.cnblogs.com/
