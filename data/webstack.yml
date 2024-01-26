@@ -9,6 +9,10 @@
       url: https://huggingface.co/
       logo: huggingface.co.ico
       description: The AI community building the future.
+    - title: civitai
+      url: https://civitai.com/
+      logo: civitai.com.ico
+      description: 探索数千个高质量的稳定扩散模型.
 
 - taxonomy: 办公学习
   icon: fas fa-graduation-cap fa-lg
