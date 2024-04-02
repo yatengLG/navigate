@@ -50,6 +50,14 @@
           logo: pytorch.svg
           url: https://pytorch.org/docs/stable/index.html
           description: Pytorch documentation
+        - title: Tensorflow
+          logo: www.tensorflow.org.png
+          url: https://www.tensorflow.org/
+          description: 端到端机器学习平台
+        - title: Onnx
+          logo: onnxruntime.ai.png
+          url: https://onnxruntime.ai/
+          description: ONNX Runtime
         - title: Docker docs
           logo: docker.ico
           url: https://docs.docker.com/
@@ -199,6 +207,10 @@
           description: 一家壁纸社区。浏览和下载高清桌面背景、手机壁纸，留下赞和评论。
     - term: 在线工具
       links:
+        - title: netron
+          logo: netron.app.png
+          url: https://netron.app/
+          description: Visualizer for neural network, deep learning and machine learning models.
         - title: TinyPNG
           logo:
           url: https://tinypng.com/
