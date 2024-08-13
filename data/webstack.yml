@@ -197,6 +197,14 @@
           logo: iconpark.oceanengine.com.ico
           url: https://iconpark.oceanengine.com/home
           description: ByteDance IconPark.
+        - title: Browse Fonts - Google Fonts
+          logo: fonts.google.com.png
+          url: https://fonts.google.com/
+          description: Making the web more beautiful, fast, and open through great typography.
+        - title: Bootstrap Icons
+          logo: icons.getbootstrap.com.png
+          url: https://icons.getbootstrap.com/
+          description: Official open source SVG icon library for Bootstrap.
         - title: wallhalla
           logo: wallhalla.com.ico
           url: https://wallhalla.com/
@@ -211,6 +219,14 @@
           logo: netron.app.png
           url: https://netron.app/
           description: Visualizer for neural network, deep learning and machine learning models.
+        - title: figma
+          logo: figma.com.png
+          url: https://www.figma.com/
+          description: The Collaborative Interface Design Tool.
+        - title: draw
+          logo: draw.io.png
+          url: https://draw.io/
+          description: draw io.
         - title: TinyPNG
           logo:
           url: https://tinypng.com/
