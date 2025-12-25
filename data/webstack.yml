@@ -35,9 +35,17 @@
           url: https://paperswithcode.com/
           logo: paperswithcode.com.ico
           description: The latest in Machine Learning | Papers With Code.
+        - title: Artificial Analysis
+          logo: articficialanalysis.ico
+          url: https://artificialanalysis.ai/
+          description: Comparison and analysis of AI models and API hosting providers.
 
     - term: 文档教程
       links:
+        - title: ISAT doc
+          url: https://isat-sam.readthedocs.io/en/latest/
+          logo: ISAT_64.svg
+          description: ISAT with segment anything doc.
         - title: 菜鸟教程
           logo: runnoob.ico
           url: https://www.runoob.com/
@@ -170,6 +178,11 @@
           logo: 华为云.png
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
+        - title: ClawCloud Run
+          logo: craw.ico
+          url: https://run.claw.cloud/
+          description: Build, Deploy, Manage & Run in Cloud-Native Platform.
+
     - term: 其他网站
       links:
         - title: pypi
@@ -243,3 +256,7 @@
           logo: docsmall.ico
           url: https://docsmall.com/
           description: 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具。
+        - title: imgdiet
+          logo: imgdiet.ico
+          url: https://www.imgdiet.com/zh-CN
+          description: 免费在线图片压缩工具(jpg、jpeg、png、gif、webp、tiff)无损压缩90%
